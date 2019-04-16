@@ -1,0 +1,77 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  background: white;
+  color: black;
+  margin-top: 3%;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5%;
+  border: 0;
+  max-width: 500px;
+}
+h1 {
+  font-family: 'Montserrat';
+  line-height: 1.0;
+  margin: 0 0 18px 0;
+  font-size: 42px;
+  text-align: left;
+  font-weight: normal;
+}
+h2 {
+  font-family: 'Roboto Mono';
+  margin: 0 0 18px 0;
+  color: #131313;
+  font-size: 18px;
+  font-size: calc(14px + 0.25vw);
+  line-height: 30px;
+  text-align: left;
+  font-weight: normal;
+}
+
+p {
+  margin: 0 0 18px 0;
+}
+h6 {
+  font-weight: normal;
+  line-height: 1.4;
+  margin: 0 0 18px 0;
+}
+a {
+  font-family: 'Roboto Mono';
+  font-weight: 'thin';
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px dotted #d00;
+}
+a:hover {
+  border-bottom: 1px solid #d00;
+  background: #ddd;
+}
+ul {
+  padding-left: 0;
+}
+
+.post, .footer, .header {
+  width: 100%;
+  max-width: 35em;
+  padding: 24px;
+  margin-bottom: 48px;
+}
+
+.footer {
+  border-top: 1px solid #ddd;
+}
+
+.header {
+  border-bottom: 1px solid #ddd;
+}
+
+.tags {
+  text-transform: lowercase;
+}
