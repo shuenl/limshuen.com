@@ -13,11 +13,12 @@ body {
   border: 0;
   max-width: 500px;
 }
+
 h1 {
   font-family: 'Montserrat';
   line-height: 1.0;
   margin: 0 0 18px 0;
-  font-size: 42px;
+  font-size: 36px;
   text-align: left;
   font-weight: normal;
 }
@@ -55,6 +56,10 @@ a:hover {
 }
 ul {
   padding-left: 0;
+}
+
+.highlight {
+  background: linear-gradient(180deg,rgba(255,255,255,0) 65%, #FF9999 65%);
 }
 
 .post, .footer, .header {
