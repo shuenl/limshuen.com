@@ -2,6 +2,7 @@ html {
   width: 100%;
   height: 100%;
 }
+
 body {
   background: white;
   color: black;
@@ -21,8 +22,19 @@ h1 {
   font-size: 36px;
   text-align: left;
   font-weight: normal;
+  background: linear-gradient(180deg,rgba(255,255,255,0) 65%, #FF9999 65%);
 }
+
 h2 {
+  font-family: 'Montserrat';
+  line-height: 1.0;
+  margin: 0 0 18px 0;
+  font-size: 36px;
+  text-align: left;
+  font-weight: normal;
+}
+
+h3 {
   font-family: 'Roboto Mono';
   margin: 0 0 18px 0;
   color: #131313;
@@ -35,11 +47,7 @@ h2 {
 p {
   margin: 0 0 18px 0;
 }
-h6 {
-  font-weight: normal;
-  line-height: 1.4;
-  margin: 0 0 18px 0;
-}
+
 a {
   font-family: 'Roboto Mono';
   font-weight: 'thin';
@@ -50,21 +58,12 @@ a {
   padding-bottom: 1px;
   border-bottom: 1px dotted #d00;
 }
+
 a:hover {
   border-bottom: 1px solid #d00;
   background: #ddd;
 }
-a.home {
-  font-family: 'Montserrat';
-  line-height: 1.0;
-  margin: 0 0 18px 0;
-  font-size: 28px;
-  text-align: left;
-  font-weight: normal;
-  padding-bottom: none;
-  border-bottom: none;
-  background: linear-gradient(180deg,rgba(255,255,255,0) 65%, #FF9999 65%);
-}
+
 ul {
   padding-left: 0;
 }
